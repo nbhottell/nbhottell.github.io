@@ -24,7 +24,6 @@ a:hover {
 
 .nav-toggle {
   text-decoration: none;
-  text-indent: -300px;
   position: relative;
   overflow: hidden;
   width: 30px;
@@ -140,8 +139,11 @@ header {
   .nav-collapse ul {
   flex-direction: row;
   justify-content: flex-end;;
-
   align-items: flex-end;
+  }
+
+  .header-content {
+    align-items: center;
   }
   
   .nav-collapse li {
