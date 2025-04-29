@@ -396,3 +396,17 @@ article {
         padding-top: 10px;
     }
 }
+
+@media screen and (min-width: 1750px) {
+    .home-img {
+        height: 800px;
+    }
+
+    .text-area {
+        height: 800px;
+    }
+
+    .text-area > p {
+        padding-bottom: 80px;
+    }
+}
