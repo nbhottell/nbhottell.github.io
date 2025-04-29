@@ -381,4 +381,18 @@ article {
     .text-area {
         flex: 0 0 300px;
     }
+
+    .home-img {
+        height: 600px;
+    }
+
+    .text-area {
+        height: 600px;
+        justify-content: flex-start;
+    }
+
+    .text-area > p {
+        padding-bottom: 50px;
+        padding-top: 10px;
+    }
 }
